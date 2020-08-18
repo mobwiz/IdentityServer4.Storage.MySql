@@ -3,7 +3,7 @@ using IdentityServer4.Stores;
 using System;
 using System.Threading.Tasks;
 
-namespace IdentityServer4.Storage.Mysql.Repository.Impl
+namespace IdentityServer4.Storage.Mysql.StorageImpl
 {
     internal class AuthorizationCodeStoreImpl : IAuthorizationCodeStore
     {
