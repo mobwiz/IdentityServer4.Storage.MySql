@@ -1,0 +1,5 @@
+D:\Github\IdentityServer4.Storage.MySql\src\bin\Debug\netstandard2.0\IdentityServer4.Storage.Mysql.deps.json
+D:\Github\IdentityServer4.Storage.MySql\src\bin\Debug\netstandard2.0\IdentityServer4.Storage.Mysql.dll
+D:\Github\IdentityServer4.Storage.MySql\src\obj\Debug\netstandard2.0\IdentityServer4.Storage.Mysql.csprojAssemblyReference.cache
+D:\Github\IdentityServer4.Storage.MySql\src\obj\Debug\netstandard2.0\IdentityServer4.Storage.Mysql.AssemblyInfoInputs.cache
+D:\Github\IdentityServer4.Storage.MySql\src\obj\Debug\netstandard2.0\IdentityServer4.Storage.Mysql.AssemblyInfo.cs
