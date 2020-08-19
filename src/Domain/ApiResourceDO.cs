@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Collections.Generic;
 using Dapper;
 
 
@@ -73,6 +74,14 @@ namespace IdentityServer4.Storage.Mysql.Domain
         /// </summary>
         [Column("NonEditable")]
         public bool NonEditable { get; set; }
+
+
+
+        // Sub properties
+        /// <summary>
+        /// 
+        /// </summary>
+        public IEnumerable<ApiResourceSecretDO> Secrets { get; set; }
 
     }
 }

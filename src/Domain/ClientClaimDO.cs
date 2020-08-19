@@ -6,7 +6,7 @@ using Dapper;
 namespace IdentityServer4.Storage.Mysql.Domain
 {
     [Table("client_claims")]
-    public class ClientClaim
+    public class ClientClaimDO
     {
         /// <summary>
         /// 

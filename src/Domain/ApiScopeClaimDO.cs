@@ -6,7 +6,7 @@ using Dapper;
 namespace IdentityServer4.Storage.Mysql.Domain
 {
     [Table("api_scope_claims")]
-    public class ApiScopeClaim
+    public class ApiScopeClaimDO
     {
         /// <summary>
         /// 

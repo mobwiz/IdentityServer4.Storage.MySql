@@ -6,7 +6,7 @@ using Dapper;
 namespace IdentityServer4.Storage.Mysql.Domain
 {
     [Table("api_resource_claims")]
-    public class ApiResourceClaim
+    public class ApiResourceClaimDO
     {
         /// <summary>
         /// 

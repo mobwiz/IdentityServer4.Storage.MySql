@@ -4,6 +4,7 @@ using IdentityServer4.Storage.Mysql.Dto;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -39,9 +40,15 @@ namespace IdentityServer4.Storage.Mysql.Repository
             return false;
         }
 
+        public async Task<ClientDO> GetClientById(string clientId)
+        {
+            var result = await _connection.GetListPagedAsync<ClientDO>(1, 1, "WHERE ClientId = @clientId", "Id ASC", new { clientId = clientId });
+            return result.FirstOrDefault();
+        }
+
         public async Task<PagedResult<ClientDO>> GetClientList(string name, int pageIndex, int pageSize)
         {
-            throw new NotImplementedException();            
+            throw new NotImplementedException();
         }
     }
 }

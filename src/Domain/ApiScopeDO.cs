@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Collections.Generic;
 using Dapper;
 
 
@@ -55,6 +56,11 @@ namespace IdentityServer4.Storage.Mysql.Domain
         /// </summary>
         [Column("ShowInDiscoveryDocument")]
         public bool ShowInDiscoveryDocument { get; set; }
+
+
+        public IEnumerable<ApiScopePropertyDO> Properties { get; set; }
+
+        public IEnumerable<ApiScopeClaimDO> UserClaims { get; set; }
 
     }
 }

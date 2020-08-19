@@ -2,7 +2,8 @@
 
 namespace IdentityServer4.Storage.Mysql
 {
-    public class Class1
+    public static class ModelBuilderExtensions
     {
+
     }
 }
