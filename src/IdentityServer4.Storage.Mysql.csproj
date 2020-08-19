@@ -5,13 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.0.35" />
-    <PackageReference Include="Dapper.SimpleCRUD" Version="2.2.0.1" />
-    <PackageReference Include="IdentityServer4.Storage" Version="4.0.4" />
+    <Compile Remove="Repository\Impl\**" />
+    <EmbeddedResource Remove="Repository\Impl\**" />
+    <None Remove="Repository\Impl\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repository\Impl\" />
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="Dapper.SimpleCRUD" Version="2.2.0.1" />
+    <PackageReference Include="IdentityServer4.Storage" Version="4.0.4" />
   </ItemGroup>
 
 </Project>

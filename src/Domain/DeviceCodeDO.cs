@@ -11,7 +11,7 @@ namespace IdentityServer4.Storage.Mysql.Domain
         /// <summary>
         /// 
         /// </summary>
-        [Column("UserCode")]
+        [Column("UserCode"), Key]
         public string UserCode { get; set; }
 
         /// <summary>
