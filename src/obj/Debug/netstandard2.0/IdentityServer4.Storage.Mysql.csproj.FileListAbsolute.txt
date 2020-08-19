@@ -6,9 +6,9 @@ D:\Github\IdentityServer4.Storage.MySql\src\obj\Debug\netstandard2.0\IdentitySer
 D:\Opensource\IdentityServer4.Storage.MySql\src\obj\Debug\netstandard2.0\IdentityServer4.Storage.Mysql.csprojAssemblyReference.cache
 D:\Opensource\IdentityServer4.Storage.MySql\src\obj\Debug\netstandard2.0\IdentityServer4.Storage.Mysql.AssemblyInfoInputs.cache
 D:\Opensource\IdentityServer4.Storage.MySql\src\obj\Debug\netstandard2.0\IdentityServer4.Storage.Mysql.AssemblyInfo.cs
-D:\Opensource\IdentityServer4.Storage.MySql\src\obj\Debug\netstandard2.0\IdentityServer4.Storage.Mysql.csproj.CoreCompileInputs.cache
 D:\Opensource\IdentityServer4.Storage.MySql\src\bin\Debug\netstandard2.0\IdentityServer4.Storage.Mysql.deps.json
 D:\Opensource\IdentityServer4.Storage.MySql\src\bin\Debug\netstandard2.0\IdentityServer4.Storage.Mysql.dll
 D:\Opensource\IdentityServer4.Storage.MySql\src\bin\Debug\netstandard2.0\IdentityServer4.Storage.Mysql.pdb
 D:\Opensource\IdentityServer4.Storage.MySql\src\obj\Debug\netstandard2.0\IdentityServer4.Storage.Mysql.dll
 D:\Opensource\IdentityServer4.Storage.MySql\src\obj\Debug\netstandard2.0\IdentityServer4.Storage.Mysql.pdb
+D:\Opensource\IdentityServer4.Storage.MySql\src\obj\Debug\netstandard2.0\IdentityServer4.Storage.Mysql.csproj.CoreCompileInputs.cache

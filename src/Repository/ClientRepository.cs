@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using IdentityServer4.Storage.Mysql.Domain;
+using IdentityServer4.Storage.Mysql.Dto;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace IdentityServer4.Storage.Mysql.Repository
 {
-    internal class ClientRepository
+    internal class ClientRepository : RepositoryBase
     {
         private IDbConnection _connection;
 
@@ -36,8 +37,11 @@ namespace IdentityServer4.Storage.Mysql.Repository
             }
 
             return false;
-        }       
-        
+        }
 
+        public async Task<PagedResult<ClientDO>> GetClientList(string name, int pageIndex, int pageSize)
+        {
+            throw new NotImplementedException();            
+        }
     }
 }
